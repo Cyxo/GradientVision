@@ -1,0 +1,615 @@
+/* Changed :root : */
+
+:root {
+	--main-color-start: #888888;
+	--main-color-end: #cccccc;
+	--hover-color-start: #aaaaaa;
+    --hover-color-end: #eeeeee;
+    --gradient-angle: -45deg;
+    --main-color: -webkit-linear-gradient(var(--gradient-angle), var(--main-color-start) 0%, var(--main-color-end) 100%);
+    --hover-color: -webkit-linear-gradient(var(--gradient-angle), var(--hover-color-start) 0%, var(--hover-color-end) 100%);
+}
+
+/* Main Border-Color : */
+
+.create-guild-container .join-server .link-container input,
+.need-help-button:hover,
+.radio-image .radio-inner span::after,
+.radio-image:hover span::after,
+ld-channels ul .channel-voice-states li.speaking .avatar-small,
+#unsupported-browser li:hover,
+#unsupported-browser li:hover .btn,
+.region-select-modal .region-select-modal-option:hover,
+.download-apps .platforms .platform.active,
+.user-popout .user-popout-options .btn,
+.instant-invite-popout hr,
+.instant-invites .instant-invites-header,
+.instant-invites .instant-invite-buttons .btn.btn-danger,
+.popout.popout-invert.popout-top header::before,
+.popout.popout-invert.popout-top-right header::before,
+.popout.popout-bottom header::before,
+.popout.popout-bottom-right header::before,
+.user-popout .user-popout-options .btn.btn-server,
+.user-popout .user-popout-options .btn.btn-server:hover,
+.member-roles .manipulate:hover,
+.slider-handle span,
+.user-popout .user-popout-options .btn:hover,
+.channels-wrap [class*="scroller-"] ul .channel-text:hover:not(.unread)::before,
+.channels-wrap [class*="scroller-"] ul .channel-text.selected::before,
+.form .control-group input[type=email]:focus,
+.form .control-group input[type=password]:focus,
+.form .control-group input[type=text]:focus,
+.form .control-group textarea:focus,
+.region-select:hover .region-select-inner,
+.region-select:hover button,
+.settings .settings-actions,
+.tab-bar.TOP .tab-bar-item.selected,
+#user-profile-modal .tab-bar.TOP .tab-bar-item.selected,
+.slider-handle,
+.radio .radio-inner,
+.message-group .edit-message .channel-textarea-inner,
+.guilds-wrapper .guilds-error,
+.emoji-picker .categories .item.selected,
+.popout.popout-right header::before,
+.bda-slist .bda-description,
+.channels-wrap [class*="scroller-"] .channel-text.selected::before,
+.channels-wrap [class*="scroller-"] .channel-text:hover.channel-muted::before,
+.channels-wrap [class*="scroller-"] .channel-text:hover:not(.unread)::before,
+.private-channels .channel.selected::before,
+#rtc-debug-modal #users-section .user-list li.selected::before,
+.user-settings-security .btn-ghost,
+.search-bar input:focus,
+.tab-bar.SIDE .tab-bar-item:hover:not(.selected)::before,
+.tab-bar.SIDE .tab-bar-item.selected::before,
+.guilds-wrapper .guilds-add:hover,
+.radio-theme input[type=radio]:checked~label,
+.guilds-wrapper .guilds .guild-placeholder,
+div.control-group .shortcut-recorder input[type=text]:focus,
+.channels-wrap [class*="scroller-"] .channel.sorting::after,
+#settings-roles .roles li.sorting::after,
+.clipboard-input-copied .clipboard-input-inner,
+.clipboard-input-tweeted .clipboard-input-inner,
+.clipboard-input-copied button:not(.tweet),
+.clipboard-input-tweeted button:not(.copy),
+.chat .title-wrap .title.channel-group-dm .channel-name.focus,
+.theme-dark .chat .title-wrap .title.channel-group-dm .channel-name.focus,
+.search.focused .search-bar,
+.search-results-wrap .search-header .tab.selected,
+.theme-dark .search-results-wrap .search-header .tab.selected,
+.user-popout .footer,
+#sendembeds input:focus,
+.channel-textarea-inner textarea:focus + .channel-textarea-emoji::after,
+.bda-slist > li > div:not(.bda-right):not([style]) input:focus,
+.bda-slist > li > div:not(.bda-right):not([style]) textarea:focus,
+.sp-replacer.sp-active,
+.sp-input:focus,
+.color-picker-popout input:focus,
+.guild-settings-modal-emoji .emoji-row .emoji-name:focus,
+.private-channel-call .speaking,
+.keybind-shortcut span,
+.add-friend-input-wrapper .add-friend-input:focus + .add-friend-hint::after,
+.ui-radiogroup [class*="card"][style*="rgb(114, 137, 218)"],
+.ui-text-input input.input:focus,
+.ui-text-input textarea.input:focus,
+.ui-slider .slider-grabber .bubble::before,
+.user-settings-games .game-name-input:focus,
+#user-profile-modal .avatar-profile,
+.quickswitcher .keybind-shortcut span,
+.channels-wrap [class*="scroller-"] [class*="UserOver"]::after,
+.channels-wrap [class*="scroller-"] [class*="Voice"] + div [class*="user"] [class*="avatar"]::after{
+  border-color: transparent !important;
+  -webkit-border-image: var(--main-color) !important;
+}
+
+/* Main Color : */
+
+.create-guild-container .join-server .sample-link,
+.chat>.content .messages .message-group a,
+.theme-dark .chat>.content .messages .message-group a,
+.need-help-button:hover,
+.need-help-button:hover .btn-help,
+.mentioned .mention:hover,
+.region-select-modal .region-select-modal-header,
+.change-log ul strong,
+.download-apps .footer a,
+.download-apps .header,
+.user-settings-modal a:hover,
+.user-settings-modal .voice-settings .reset-voice-settings,
+.chat .welcome-message h1,
+.instant-invite-popout a,
+.chat .welcome-message a,
+.theme-dark .chat .welcome-message a,
+#permissions .permissions-helpdesk,
+.avatar-uploader a,
+#autocomplete-popout .empty h4,
+.guild-settings-modal-members .guild-settings-modal-members-footer a,
+.chat .title-wrap .topic a,
+.theme-dark .chat .title-wrap .topic a,
+.download-apps .platforms .platform.active p,
+.form header,
+.region-select button,
+.create-guild-container h5,
+.create-guild-container .action.create .action-header,
+.user-settings-modal a,
+.tab-bar.TOP .tab-bar-item.selected,
+#user-profile-modal .tab-bar.TOP .tab-bar-item.selected,
+.channel-members h2,
+.channel-members .member .member-game strong,
+.user-settings-modal-account .discord-tag,
+.chat .has-more button,
+.modal-new-user h5,
+.tutorial-popout .button-area .skip-tips a,
+.emoji-picker .category,
+.form .control-group label a,
+.private-channels .channel .channel-game strong,
+.channel-members .member .member-activity strong,
+.private-channels .channel .channel-activity strong,
+.bda-slist .bda-name, .markdown-modal a,
+.protip .label,
+.activity strong,
+.guilds-wrapper .guilds-add:hover,
+.guilds-wrapper .guilds .guild-placeholder,
+.user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .count,
+.channels-wrap [class*="scroller-"] .channel.sorting::after,
+#settings-roles .roles li.sorting::after,
+.alert.form .form-inner h4,
+.ebr-themes .name,
+.ebr-plugins .name,
+.server-official, #rtc-connection .btn-group .btn-info,
+.message-group a,
+.theme-dark .message-group a,
+.message-group .embed a.embed-title,
+.theme-dark .message-group .embed a.embed-title,
+.guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p a,
+.protip .tip a,
+.guild-settings-modal-security .control-group .help-text a,
+.message-group .comment .attachment .upload > .filename,
+.now-playing-add .link,
+.chat > .content .messages .message-group a, .theme-dark .chat>.content .messages .message-group a code.inline,
+.emoji-picker .premium-promo .premium-promo-title,
+.emoji-picker .premium-promo .btn,
+.search-results-wrap .search-header .tab.selected,
+.theme-dark .search-results-wrap .search-header .tab.selected,
+.copybutton:active,
+#sendembeds h1,
+.message-group .embed .embed-author-name,
+.theme-dark .message-group .embed .embed-author-name,
+.sp-container .sp-cancel, .sp-container .sp-cancel:hover,
+.form .control-group .help-text a,
+.avatar-uploader .remove-button,
+.channels-wrap [class*="scroller-"] [class*="Text"][class*="content"][class*="Selected"] [class*="iconSpacing"] [class*="wrapper"],
+#instant-invite-modal .form-header header,
+#instant-invite-modal .clipboard-input-inner input,
+.ui-guild-nsfw .title,
+#friends .friends-header .tab-bar .tab-bar-item.selected .badge,
+.premium-settings .premium-header .premium-free-months,
+.premium-settings.v1 .premium-features .premium-feature .ui-form-text.style-default,
+.premium-payment-modal .premium-payment-form .premium-payment-title,
+.ui-tab-bar-header,
+.ui-tab-bar.SIDE .ui-tab-bar-item.brand,
+[class*="card"] a,
+.premium-feature .ui-form-text.style-default,
+.app a:not(.avatar-small), .connecting a,
+.ui-audit-log-change-details .prefix.ui-flex.type-create,
+#user-profile-modal footer button,
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name a,
+.invite-modal .invite-title
+{
+  background: var(--main-color) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Background-color : */
+
+.need-help-modal .header,
+.download-apps .platforms .platform.active .download-button,
+.change-log .changelog-fixed,
+.modal-new-user .steps-wrap .steps li.on,
+.modal-new-user .steps-wrap .steps li.on+.divider,
+.modal-new-user .steps-wrap .steps li.on::before,
+.chat .new-messages-bar:hover,
+ld-channels ul .channel-voice-states li.speaking .avatar-small,
+#unsupported-browser li:hover .btn,
+.mention:hover,.popout header,
+.user-popout .user-popout-options .btn,
+.channel-members .invite-btn,
+#settings-roles .roles li.selected::before,
+.user-popout .user-popout-options .btn.btn-server,
+.sensitivity .slider .slider-bar-auto.speaking,
+.spinner-wandering-cubes .spinner-item,
+.region-select:hover button,.form .btn-primary,
+#bd-ps-body table tr:nth-child(odd):hover,
+#bd-ps-body table tr:hover,
+#friends .btn,
+.friends-table .messages .message-group .comment .markup .mention:hover,
+.messages-wrapper .messages .message-group .comment .markup .mention:hover,
+.theme-dark .friends-table .messages .message-group .comment .markup .mention:hover,
+.theme-dark .messages-wrapper .messages .message-group .comment .markup .mention:hover,
+.guilds-wrapper .guilds-error:hover,
+.server-info button,
+.form .control-group .Select-option.is-selected.is-focused,
+#friends .friends-header .tab-bar .tab-bar-item.selected,
+.button,
+#bd-customcss-detach-container #bd-customcss-detach-controls-buttons button,
+button.win-close:hover,
+button.win-maximize:hover,
+button.win-minimize:hover,
+.channels-wrap [class*="scroller-"] ul .channel-voice .channel-arrow:hover,
+.guilds-wrapper .guilds .friends-online:hover,
+div#bd-pub-button:hover,
+.guilds .friends-icon:hover,
+#friends .friends-header .tab-bar .tab-bar-item.selected,
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind,
+.bda-dark #pubs-header button,
+#pubs-header button,
+.bda-dark .server-info button,
+.server-info button,
+.badge, [class*="iconSpacing"] [class*="wrapper"],
+.bda-dark #bda-qem button.active,
+#bda-qem button.activ,
+.bda-dark .emoji-picker .scroller .emoji-item.selected,
+.emoji-picker .scroller .emoji-item.selected,
+.diversity-selector .popout .item:hover,
+.chat .title-wrap .topic .mention:hover,
+#friends .friends-header .tab-bar .tab-bar-item .badge,
+.slider-handle,
+.guilds-wrapper .guilds-add:hover::before,
+.guilds-wrapper .guilds-add:hover::after,
+.chat .jump-to-present-bar:hover,
+.change-log .changelog-added,
+.change-log .changelog-added-secondary,
+.change-log .changelog-improved,
+.create-guild-container .action.join .btn,
+#rmenu:hover,
+.private-channels .channel .icon-friends,
+.private-channels .channel .avatar-small[style='background-image: url("/assets/6cd008c0ba16db365710e0d9c95dbeed.svg");'],
+.header-toolbar .toolbar-badge,
+.chat .divider.divider-red > span::before,
+.chat .new-messages-bar::before,
+#overlay-explanation,
+.change-nickname-warning,
+.channel-textarea-guard button,
+.install-button,
+.view-source-button,
+.update-button,
+.clipboard-input-copied button:not(.tweet),
+.clipboard-input-tweeted button:not(.copy),
+.search-popout .option.selected,
+.react-datepicker .react-datepicker__day.react-datepicker__day--selected:hover,
+.react-datepicker .react-datepicker__day:hover,
+.react-datepicker .react-datepicker__day.react-datepicker__day--today::after,
+.search-popout .date-picker .date-picker-hint .hint-value,
+.message-reactions-modal .message-reactions-list-inner .reaction.selected:hover,
+.tooltip,
+.tooltip.tooltip-error,
+.messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover,
+.search-results-wrap .action-buttons .jump-button:hover,
+.form .btn.green,
+.form .btn-clear,
+.color-picker .swatches .swatch.selected::after,
+.new-messages-indicator.new-messages-indicator-mention,
+.guild-settings-modal .emoji-row .btn.btn-danger,
+.guild-settings-modal .member-buttons .btn.btn-danger,
+.channels-wrap [class*="scroller-"] [class*="Text"][class*="content"][class*="Selected"],
+.channels-wrap [class*="scroller-"] [class*="DragBefore"]::before,
+.private-channels .channel.selected a,
+.chat .private-channel-call .status,
+.ui-call-avatar.voice .ui-call-avatar-status,
+.ui-quick-select-popout-option:hover,
+.popout-menu .popout-menu-item.invite:hover,
+.channel-notices .channel-notice .message .btn,
+.progress .progress-bar,
+.upload-modal .footer .button-primary,
+.bd-blue #instant-invite-modal .copy,
+.bd-blue #oauth2-authorize .scope-bot .avatar-large,
+.bd-blue #overlay-wrapper .overlay .guild-panel .guild-panel-header,
+.bd-blue #settings-roles .roles li.selected::before, .bd-blue #unsupported-browser li:hover .btn,
+.bd-blue #user-profile-modal .btn,
+.bd-blue #user-profile-modal .guilds .avatar-large,
+.bd-blue .avatar-uploader-inner,
+.bd-blue .btn-filled, .bd-blue .button,
+.bd-blue .change-log .changelog-button .cta,
+.bd-blue .change-log .changelog-fixed,
+.bd-blue .channel-members .invite-btn,
+.bd-blue .channel-textarea-guard button,
+.bd-blue .chat .new-messages-bar:hover,
+.bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked + span,
+.bd-blue .detected-platform-accounts-modal .btn-group .btn-primary,
+.bd-blue .download-apps .platforms .platform.active .download-button,
+.bd-blue .emoji-picker .premium-promo .btn,
+.bd-blue .channels-wrap [class*="scroller-"] .channel-text.unread:not(.selected):not(.channel-muted).selected::before,
+.bd-blue .channels-wrap [class*="scroller-"] .channel-voice-states li.speaking .avatar-small,
+.bd-blue .invite-banner,
+.bd-blue .invite-header .invite-guild-icon,
+.bd-blue .invite-mobile .link.purple,
+.bd-blue .invite-mobile .top,
+.bd-blue .invite-modal .avatar-xxxlarge,
+.bd-blue .mention:hover,
+.bd-blue .modal-new-user .steps-wrap .steps li.active,
+.bd-blue .modal-new-user .steps-wrap .steps li.on::before,
+.bd-blue .need-help-modal .header,
+.bd-blue .overlay-user-popout .user-popout-options .btn,
+.bd-blue .premium-payment-modal,
+.bd-blue .premium-payment-modal .premium-payment-button .spinner .spinner-item,
+.bd-blue .private-channel-recipients-invite .footer button,
+.bd-blue .private-channel-recipients-invite .footer button:disabled:hover,
+.bd-blue .progress .progress-bar,
+.bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today::after,
+.bd-blue .react-datepicker .react-datepicker__day:hover,
+.bd-blue .region-select-flag, .bd-blue .region-select:hover button,
+.bd-blue .search-popout .date-picker .date-picker-hint .hint-value,
+.bd-blue .spinner-chasing-dots .ui-spinner-item,
+.bd-blue .spinner-wandering-cubes .ui-spinner-item,
+.bd-blue .tooltip, .bd-blue .ui-button.brand .ui-spinner-item,
+.bd-blue [class*="buttonBrandFilled"], .bd-blue [class*="buttonBrandFilled"]:disabled,
+.bd-blue .ui-button.brand.outlined:active,
+.bd-blue .ui-scroller-wrap .scrollbar .thumb::after,
+.bd-blue .upload-modal,
+.bd-blue .verify-connected-account .btn,
+.ui-guild-nsfw .action-button.dark-red,
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-green,
+#friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected,
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected,
+#friends .friends-table .friends-row .friends-column-actions .friends-action,
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action,
+.detected-platform-accounts-modal .btn-group .btn-primary,
+.input-switch input:checked+.input-switch-slider,
+.user-settings-modal-security .btn-ghost,
+.ui-button.green.filled,
+.private-channel-recipients-invite .footer button,
+.private-channel-recipients-invite .error-state.not-friends .btn,
+.checkbox .checkbox-inner input[type=checkbox]:checked + span,
+.ui-select .Select-option.is-selected.is-focused,
+.ui-standard-sidebar-view .bda-slist .bda-right button,
+.ui-standard-sidebar-view #bd-customcss-attach-controls button,
+.bd-detached-css-editor #bd-customcss-attach-controls button,
+.ui-standard-sidebar-view #editor-detached button,
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"],
+#bd-settings-sidebar .ui-tab-bar-item.selected,
+#user-profile-modal .btn,
+.quickswitcher-container .quickswitcher .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.quickswitcher .result.selected,
+.invite-modal .button,
+.theme-light .channels-wrap [class*="scroller-"] .channel-text.selected,
+.channels-wrap [class*="scroller-"] .channel-text.selected,
+.chat > .content:first-child .scroller-wrap::-webkit-scrollbar-thumb,
+.theme-dark .chat > .content:first-child .scroller-wrap::-webkit-scrollbar-thumb,
+.scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb,
+.emoji-picker .scroller::-webkit-scrollbar-thumb,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb,
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb,
+#bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb,
+#bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb,
+#pubs-container .scroller::-webkit-scrollbar-thumb,
+.emoji-picker .scroller::-webkit-scrollbar-thumb{
+    background-color: transparent !important;
+    background-image: var(--main-color) !important;
+}
+
+/* Hover Border-Color : */
+.download-apps .platforms .platform,
+.instant-invites .instant-invite-buttons .btn.btn-danger:hover,
+.user-settings-modal .account-warning,
+.guild-settings-modal-members .member-buttons .btn.btn-danger,
+.private-channels .search-result.selected::before,
+.private-channels .search-result:hover::before,
+#rtc-debug-modal #users-section .user-list li:not(.selected):hover::before,
+.channels-wrap [class*="scroller-"] .channel-text.unread:not(.selected):not(.channel-muted):hover::before,
+.user-settings-security .btn-ghost:hover{
+  border-color: transparent !important;
+  -webkit-border-image: var(--main-color) !important;
+}
+
+/* Hover Color : */
+.change-log .header,
+.download-apps .footer,
+.user-settings-modal .voice-settings .reset-voice-settings:hover,
+.instant-invite-popout a:hover,
+.clipboard-input-inner input{
+  background: var(--hover-color) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Hover Background-color : */
+.user-popout .user-popout-options .btn:hover,
+.channel-members .invite-btn:hover,
+#settings-roles .roles li:not(.selected):hover::before,
+.user-popout .user-popout-options .btn.btn-server:hover,
+.member-roles .manipulate:hover,
+.chat .new-messages-bar:hover,
+.form .btn-primary:hover,
+.create-guild-container .action:hover.create .btn,
+#friends .btn:hover,
+.private-channels .channel.selected .icon-friends,
+.add-friend-popout .btn:disabled,
+.server-info button:hover,
+.form .control-group .Select-option.is-selected,
+.button:hover,
+.user-settings-modal-keybinds .user-settings-modal-keybinds-header .btn-add-keybind:hover,
+.bda-dark #pubs-header button:hover,
+#pubs-header button:hover,
+.bda-dark .server-info button:hover,
+.server-info button:hove,
+.download-apps .platforms .platform .download-button,
+.change-log .changelog-in-progress,
+.create-guild-container .action:hover.join .btn,
+.channel-textarea-guard button:hover,
+.install-button:hover,
+.view-source-button:hover,
+.update-button:hover,
+.search-popout .date-picker .date-picker-hint .hint-value:hover,
+.message-reactions-modal .message-reactions-list-inner .reaction.selected,
+.member-roles .member-role.member-role-add.popout-open,
+.form .btn.green:hover,
+.form .btn-clear:hover,
+.guild-settings-modal .emoji-row .btn.btn-danger:hover,
+.guild-settings-modal .member-buttons .btn.btn-danger:hover,
+.popout-menu .popout-menu-item.invite,
+.channel-notices .channel-notice .message .btn:hover,
+.upload-modal .footer .button-primary:hover,
+.ui-guild-nsfw .action-button.dark-red:hover,
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-green:hover,
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover,
+#friends .friends-table .friends-row .friends-column-actions .friends-action:hover,
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover,
+.detected-platform-accounts-modal .btn-group .btn-primary:hover:not(:disabled),
+.user-settings-modal-security .btn-ghost:hover,
+.ui-button.green.filled:hover,
+.private-channel-recipients-invite .footer button:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover,
+.ui-select .Select-option.is-selected,
+.ui-standard-sidebar-view .bda-slist .bda-right button:hover,
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover,
+.bd-detached-css-editor #bd-customcss-attach-controls button:hover,
+.ui-standard-sidebar-view #editor-detached button:hover,
+[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar [class*="item"][class*="Brand"]:not([class*="selected-"]):hover,
+.scroller-wrap .scroller::-webkit-scrollbar-thumb:active,
+.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar-thumb:active,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb:active,
+.emoji-picker .scroller::-webkit-scrollbar-thumb:active,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb:active,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb:active,
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb:active,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb:active,
+#bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb:active,
+#bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb:active,
+#pubs-container .scroller::-webkit-scrollbar-thumb:active,
+.emoji-picker .scroller::-webkit-scrollbar-thumb:active,
+#user-profile-modal .btn:hover,
+.quickswitcher-container .quickswitcher .scroller-wrap .scroller::-webkit-scrollbar-thumb:active,
+.invite-modal .button:hover{
+    background-color: transparent !important;
+    background-image: var(--hover-color) !important;
+}
+
+/* Unchanged Misc : */
+.download-apps .platforms .platform.active{
+  -webkit-filter: drop-shadow(0 0 3px var(--main-color-start));
+   filter: drop-shadow(0 0 3px var(--main-color-start));
+   -webkit-animation: pulsate-drop-shadow 1s infinite alternate;
+   animation: pulsate-drop-shadow 1s infinite alternate;
+}
+@-webkit-keyframes pulsate-drop-shadow {
+    from {
+        -webkit-filter: drop-shadow(0 0 3px var(--main-color-start));
+        filter: drop-shadow(0 0 3px var(--main-color-start));
+    }
+    to {
+        -webkit-filter: drop-shadow(0 0 3px transparent);
+        filter: drop-shadow(0 0 3px transparent);
+    }
+}
+@keyframes pulsate-drop-shadow {
+    from {
+        -webkit-filter: drop-shadow(0 0 3px var(--main-color-start));
+        filter: drop-shadow(0 0 3px var(--main-color-start));
+    }
+    to {
+        -webkit-filter: drop-shadow(0 0 3px transparent);
+        filter: drop-shadow(0 0 3px transparent);
+    }
+}
+line {
+    stroke: var(--main-color-start) !important;
+    stroke-dasharray: 5, 3 !important;
+}
+@-webkit-keyframes shortcut-recorder-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 var(--main-color);
+        box-shadow: 0 0 0 0 var(--main-color);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 10px 10px transparent;
+        box-shadow: 0 0 10px 10px transparent;
+    }
+    to {
+        -webkit-box-shadow: 0 0 0 0 transparent;
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+@keyframes shortcut-recorder-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 var(--main-color-start);
+        box-shadow: 0 0 0 0 var(--main-color-start);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 10px 10px transparent;
+        box-shadow: 0 0 10px 10px transparent;
+    }
+    to {
+        -webkit-box-shadow: 0 0 0 0 transparent;
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+#theme-search:focus,
+#plugin-search:focus {
+    outline-color: var(--main-color-start);
+}
+.server-official {
+    text-shadow: 0 0 4px var(--main-color-start);
+}
+.channel-textarea-inner textarea:focus + .channel-textarea-emoji::after {
+    -webkit-box-shadow: 0 0 3px var(--main-color-start);
+    box-shadow: 0 0 3px var(--main-color-start);
+}
+.private-channel-call .speaking{
+    -webkit-box-shadow: 0 0 0 3px var(--main-color-start), inset 0 0 5px rgba(0, 0, 0, .5) !important;
+    box-shadow: 0 0 0 3px var(--main-color-start), inset 0 0 5px rgba(0, 0, 0, .5) !important;
+}
+.ui-text-input textarea.input:focus{
+    box-shadow: 0 0 3px var(--main-color-start);
+}
+.user-settings-voice .input-sensitivity-toggle.manual .slider-bar-fill {
+    background: var(--main-color) !important;
+    background: var(--main-color) !important;
+}
+@-webkit-keyframes friend-request-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 var(--main-color-start);
+        box-shadow: 0 0 0 0 var(--main-color-start);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 10px 10px transparent;
+        box-shadow: 0 0 10px 10px transparent;
+    }
+    to {
+        -webkit-box-shadow: 0 0 0 0 transparent;
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+@keyframes friend-request-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 var(--main-color-start);
+        box-shadow: 0 0 0 0 var(--main-color-start);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 10px 10px transparent;
+        box-shadow: 0 0 10px 10px transparent;
+    }
+    to {
+        -webkit-box-shadow: 0 0 0 0 transparent;
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+.ui-slider .slider-grabber .bubble{
+    background-color: var(--main-color-start) !important;
+}
+
+.keybind-shortcut span {
+    -webkit-box-shadow: inset 0 -4px 0 var(--hover-color-start);
+    box-shadow: inset 0 -4px 0 var(--hover-color-start);
+}
+.quickswitcher .keybind-shortcut span {
+    -webkit-box-shadow: inset 0 -4px 0 var(--hover-color-start);
+    box-shadow: inset 0 -4px 0 var(--hover-color-start);
+}
